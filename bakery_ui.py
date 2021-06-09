@@ -40,7 +40,7 @@ class CustomerView:
         order_text = ""
         sandnum = self.sand.get()
         cakenum = self.cake.get()
-        sachk, cachk = 0,0
+        sachk, cachk = 0,0 
         try:
             int(sandnum)
         except:
